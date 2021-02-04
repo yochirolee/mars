@@ -1,0 +1,64 @@
+.bg-container {
+  height: 100vh;
+  top: -50px;
+}
+
+.bg1 {
+  background: url("../../assets/Img/bg1.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: ease-in-out 2s;
+}
+.bg2 {
+  background: url("../../assets/Img/bg2.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: ease-out 2s;
+}
+.bg3 {
+  background: url("../../assets/Img/bg3.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+}
+
+.nav-indicators {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.nav-left {
+  background: url('../../assets//Img//ui_sprite@2x.png');
+  width: 40px;
+  height: 40px;
+  background-position-x: -58px;
+  background-position-y: -305px;
+  transform: rotate(180deg);
+}
+
+.nav-right {
+  background: url('../../assets//Img//ui_sprite@2x.png');
+  width: 40px;
+  height: 40px;
+  background-position-x: -58px;
+  background-position-y: -305px;
+}
+
+.bottom-overlay{
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+
+@media (max-width: 858px){
+  .nav-indicators{
+    display: none;
+  }
+}

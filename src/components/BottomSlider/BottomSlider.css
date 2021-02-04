@@ -1,0 +1,23 @@
+.bottom-slider .card-bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 3rem;
+  width: 100vw;
+  height: 60px;
+  align-items: center;
+  flex-shrink: 1;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 858px) {
+  .bottom-slider .card-bottom-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    flex-shrink: 1;
+    padding: 0 1rem 0 1rem;
+    overflow: hidden;
+  }
+}

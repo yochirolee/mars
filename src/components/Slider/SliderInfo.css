@@ -1,0 +1,32 @@
+/*MAIN INFO*/
+
+.main-info {
+  height: 300px;
+  width: 500px;
+  top: calc(100vh - 70%);
+  left: 4rem;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.356);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.main-info .btn {
+  width: 150px;
+  background-color: rgba(25, 100, 150, 0.897);
+  color: #fff;
+  height: 30px;
+}
+
+@media (max-width: 858px) {
+  .main-info {
+    width: 100vw;
+    display: block;
+    left: 0;
+  }
+}

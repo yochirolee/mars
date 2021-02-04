@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 250px;
+    height: 60px;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+    flex-shrink: 1;
+  }
+
+  
+.card-circle {
+    height: 40px;
+    width: 40px;
+    background-image: url(../../assets/Img/dashboard_expand.png);
+    background-size: contain;
+  
+  }
+
+  .card h4{
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    color: rgba(228, 228, 228, 0.8);
+    text-transform: uppercase;
+  }
+
+  .card p {
+    color: #4e8fa4;
+    font-size: 0.78em;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+
+  @media (max-width: 858px) {
+    .card{
+        min-width: 100vw;
+    
+    }
+  }

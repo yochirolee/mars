@@ -1,0 +1,33 @@
+.bullets-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10px;
+  align-items: center;
+  justify-content: center;
+  top: calc(100vh - 25%);
+  position: relative;
+  z-index: 2;
+}
+.bullet {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.61); ;
+  margin: 0 5px 0 5px;
+}
+
+.bullet,
+.bullet-active:hover {
+  cursor: pointer;
+}
+
+.bullet-active {
+  background-color: #fff;
+  margin: 0 5px 0 5px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+
+

@@ -1,0 +1,26 @@
+.nav-search {
+  border-radius: 25px;
+  height: 30px;
+  outline: 0;
+  transition: width 2s;
+  padding-left: 1rem;
+  background-color: rgba(255, 255, 255, 0.651);
+}
+
+.nav-search:hover {
+  width: 150px;
+}
+
+.search-icon {
+  position: relative;
+  right: 23px;
+  color: rgb(75, 71, 71);
+}
+
+@media (max-width: 858px) {
+  .nav-search {
+    display: none;
+  }
+
+ 
+}
